@@ -1,6 +1,6 @@
 import os
 
-os.chdir("/Users/alexandre.bornstein/Desktop/Lab/python/videos")
+os.chdir("/Users/alexandre.bornstein/Desktop/Lab/python/images")
 
 for f in os.listdir():
     f_name, f_ext = os.path.splitext(f)
