@@ -1,6 +1,6 @@
 
 try:
-    f = open('testfile.txt')
+    f = open('test_file.txt')
 except FileNotFoundError as e:
     print(e)
 except Exception as e:
